@@ -12,8 +12,8 @@ const route1 = require("./routes/route1")
 const route2 = require("./routes/route2")
 
 //Using the routes in express app
-app.use("/route1", route1)
-app.use("/route2", route2)
+app.use("/route1", route1) //Link will be localhost:3000/route1
+app.use("/route2", route2) //Link will be localhost:3000/route1
 
 
 //ENDPOINTS
